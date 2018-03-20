@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UpdateCustomerController">
+   <children>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" prefHeight="0.0" prefWidth="811.0" rowValignment="TOP" style="-fx-background-color: #336699;">
+         <children>
+            <Text fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="UPDATE CUSTOMER">
+               <font>
+                  <Font name="Century" size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </FlowPane>
+      <Pane id="imageBackground" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="454.0" prefWidth="612.0" scaleShape="false" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="153.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="105.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Separator layoutX="808.0" layoutY="1.0" orientation="VERTICAL" prefHeight="799.0" prefWidth="1.0" />
+            <Pane layoutX="128.0" prefHeight="348.0" prefWidth="330.0">
+               <children>
+                  <Text layoutX="8.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST NAME:" />
+                  <TextField fx:id="lastName" layoutX="93.0" layoutY="100.0" prefHeight="25.0" prefWidth="224.0" />
+                  <Text layoutX="6.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHONE:" />
+                  <TextField fx:id="phoneTF" layoutX="119.0" layoutY="163.0" prefHeight="25.0" prefWidth="196.0" />
+                  <TextArea fx:id="addressTA" layoutX="106.0" layoutY="225.0" prefHeight="47.0" prefWidth="215.0" />
+                  <Text layoutX="7.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS:" />
+                  <ImageView fx:id="imageView" fitHeight="85.0" fitWidth="108.0" layoutX="199.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text layoutX="12.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIRST NAME:" />
+                  <TextField fx:id="firstName" layoutX="97.0" layoutY="40.0" prefHeight="25.0" prefWidth="224.0" />
+                  <Button fx:id="updateButton" layoutX="162.0" layoutY="302.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.77" prefHeight="27.0" prefWidth="105.0" style="-fx-background-color: green;" text="Update" textFill="#f3f4f5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</VBox>

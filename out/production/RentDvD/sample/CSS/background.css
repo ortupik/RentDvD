@@ -1,0 +1,45 @@
+
+#roots{
+     -fx-background-color:#336699;     
+}
+#loginFrame{
+ -fx-background-radius: 30, 30, 29, 28;
+ -fx-background-color:white;
+   
+}
+#topFrame{
+ 
+  -fx-background-color:linear-gradient(white,#336699 );
+ -fx-background-size: 626,313;
+}
+ 
+#btnLogin {
+    -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 3px 10px 3px 10px;
+  
+	
+}
+#image{
+
+ -fx-background-image:url("thumbnail.png"); 
+ -fx-background-size: 314,236;
+
+}
+#imageBackground{
+
+-fx-background-image:url("crisp.png"); 
+ -fx-background-size: 823,565;
+ -fx-background-radius: 30, 30, 29, 28;
+
+}
+#imageBackground2{
+
+-fx-background-image:url("neutral.png");
+ -fx-background-size: 683,63;
+
+
+}
+searchField{
+	
+}
+#imageFrame{}

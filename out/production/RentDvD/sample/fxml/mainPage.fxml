@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="549.0" stylesheets="@../CSS/background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainPageController">
+   <children>
+      <Pane id="imageBackground" layoutY="23.0" prefHeight="402.0" prefWidth="549.0" stylesheets="@../CSS/background.css">
+         <children>
+            <Button fx:id="dvdBtn" layoutX="44.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="46.0" prefWidth="207.0" text="MANAGE DVDS" />
+            <Button fx:id="customersBtn" layoutX="44.0" layoutY="232.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="46.0" prefWidth="207.0" text="MANAGE CUSTOMERS" />
+            <Button fx:id="rentBtn" layoutX="304.0" layoutY="161.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="46.0" prefWidth="207.0" text="RENT A DVD" />
+            <FlowPane alignment="CENTER" layoutY="-23.0" prefHeight="57.0" prefWidth="549.0" style="-fx-background-color: #336699;">
+               <children>
+                  <Text fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="RENT A DVD">
+                     <font>
+                        <Font name="Century" size="33.0" />
+                     </font>
+                  </Text>
+               </children>
+            </FlowPane>
+         </children></Pane>
+   </children>
+</Pane>
